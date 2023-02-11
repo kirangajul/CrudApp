@@ -1,0 +1,45 @@
+<p>student-registration works!</p>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container register-form">
+            <div class="form">
+                <div class="note">
+                    <p>Welcomen to the first angular project.</p>
+                </div>
+
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name *" [(ngModel)] = "cs.stu.name" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Phone Number *" [(ngModel)] = "cs.stu.mobile"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Division *" [(ngModel)] = "cs.stu.division"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Address *" [(ngModel)] = "cs.stu.address"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Course *" [(ngModel)] = "cs.stu.course"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your marks *" [(ngModel)] = "cs.stu.marks"/>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" 
+                   (click)="saveStudent(cs.stu)" class="btnSubmit">Submit</button>
+                   <button type="button" 
+                   (click)="resetStudent()" class="btnSubmit">Reset</button>
+                </div>
+            </div>
+        </div>

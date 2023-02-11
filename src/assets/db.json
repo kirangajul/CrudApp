@@ -1,0 +1,31 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Kiran",
+      "address": "Pune",
+      "mobile": "959595",
+      "marks": "97",
+      "course": "Java",
+      "division": "A"
+    },
+    {
+      "id": 2,
+      "name": "Aniket",
+      "address": "Nagpur",
+      "mobile": "949494",
+      "marks": "98",
+      "course": "Angular",
+      "division": "B"
+    },
+    {
+      "id": 3,
+      "name": "Suryakant",
+      "address": "Pune",
+      "mobile": "939393",
+      "marks": "97",
+      "course": "MySQL",
+      "division": "B"
+    }
+  ]
+}
